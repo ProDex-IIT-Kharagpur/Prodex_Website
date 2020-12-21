@@ -610,6 +610,48 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Register
+--------------------------------------------------------------*/
+#registerBtn {
+  background: #47b2e4;
+  border: 0;
+  padding: 12px 34px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.register {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 15px;
+  color: #444444;
+}
+
+.register h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+
+.register form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+#registerBtn:hover {
+  background: #209dd8;
+}
+
+/*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
 .about .content h3 {
@@ -1672,7 +1714,7 @@ section {
   background: #37517e;
 }
 
-#footer .footer-newsletter {
+/* #footer .footer-newsletter {
   padding: 50px 0;
   background: #f3f5fa;
   text-align: center;
@@ -1723,8 +1765,7 @@ section {
 
 #footer .footer-newsletter form input[type="submit"]:hover {
   background: #209dd8;
-}
-
+} */
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
