@@ -1782,8 +1782,8 @@ section {
   line-height: 1;
   /* text-transform: uppercase; */
   font-weight: 600;
-  /* color: #37517e; */
-  color: #31A9E1;
+  color: #37517e;
+  /* color: #31A9E1; */
 }
 
 #footer .footer-top .footer-contact p {
