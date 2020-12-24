@@ -1093,16 +1093,13 @@ section {
   border-radius: 5px;
   background: #fff;
   transition: 0.5s;
+  min-height: 240px;
 }
 
 .team .member .pic {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
-}
-
-.team .member .pic img {
-  transition: ease-in-out 0.3s;
 }
 
 .team .member:hover {
@@ -1894,5 +1891,33 @@ section {
 
   #footer .credits {
     padding-top: 4px;
+  }
+}
+
+.video-responsive{
+  width: 90%;
+  height: 600px;
+}
+
+@media (max-width: 800px){
+  .video-responsive{
+    width: 90%;
+    height: 520px;
+  }
+}
+
+
+@media (max-width: 500px){
+  .video-responsive{
+    width: 90%;
+    height: 300px;
+  }
+}
+
+@media (max-width:375px)
+{
+  .video-responsive{
+    width: 90%;
+    height: 250px;
   }
 }
