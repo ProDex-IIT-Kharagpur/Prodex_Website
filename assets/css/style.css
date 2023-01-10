@@ -128,6 +128,22 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
+#header .Intro-registration-marquee {
+  font-size: 30px;
+  color: #fff;
+  background: #409cc6;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;  
+}
+
+#header .Intro-registration-marquee a {
+  margin-top: auto;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -412,9 +428,63 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 28px 11px 28px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px 0 0 0;
+  margin: 10px 10px 0 0;
   color: #fff;
   background: #47b2e4;
+}
+
+.buttonIntroSem {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 10px 0 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #0557a8;
+    box-shadow: 0 0 5px #0557a8;
+  }
+  50% {
+    background-color: #19a7e8;
+    box-shadow: 0 0 20px #19a7e8;
+  }
+  100% {
+    background-color: #0557a8;
+    box-shadow: 0 0 5px #0557a8;
+  }
+}
+@keyframes glowinghover {
+  0% { 
+    background-color: #19a7e8;
+    box-shadow: 0 0 -10px #c4a300;                 
+  }
+  40% { 
+    box-shadow: 0 0 20px #c4a300; 
+    background-color: #19a7e8;
+  }
+  60% {
+    box-shadow: 0 0 20px #c4a300; 
+    background-color: #19a7e8;
+  }
+  100% {
+    box-shadow: 0 0 -10px #c4a300; 
+    background-color: #19a7e8;
+  }
+}
+.buttonIntroSem {
+  animation: glowing 1300ms infinite;
+}
+.buttonIntroSem:hover {
+  animation: glowinghover 500ms infinite;
+  color: #fff;
 }
 
 #hero .btn-get-started:hover {
@@ -1096,11 +1166,29 @@ section {
   min-height: 240px;
 }
 
-.team .member .pic {
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.team .member .pic img{
   overflow: hidden;
-  width: 180px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
   border-radius: 50%;
 }
+.team .member .pic1 img{
+  overflow: hidden;
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
 
 .team .member:hover {
   transform: translateY(-10px);
