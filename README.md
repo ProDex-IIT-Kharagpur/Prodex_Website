@@ -17,7 +17,7 @@
   <ul>
     <li><a href="https://github.com/ujjwall-R">Ujjwal R</li>
     <li><a href="https://github.com/Grce47">Grace Sharma</li>
-    <li><a href="https://github.com/JebronLames">Abhinav R Cillanki</li>
+    <li><a href="https://github.com/JebronLames32">Abhinav R Cillanki</li>
     <li><a href="https://github.com/Smartraunak">Raunak Raj</li>
   </ul>
   </body>
