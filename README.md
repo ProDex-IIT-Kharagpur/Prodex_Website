@@ -19,6 +19,8 @@
     <li><a href="https://github.com/Grce47">Grace Sharma</li>
     <li><a href="https://github.com/JebronLames">Abhinav R Cillanki</li>
     <li><a href="https://github.com/Smartraunak">Raunak Raj</li>
+    <li><a href="https://github.com/noobman99">Parth Patil</li>
+    <li><a href="https://github.com/SushanthMV1">Sushanth Machavolu</li>
   </ul>
   </body>
   </html>
